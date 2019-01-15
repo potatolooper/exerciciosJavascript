@@ -30,7 +30,7 @@ var misterio = Math.random();
 document.write('<br>Xenero un número aleatorio menor ca un: '+ misterio);
 
 //olliño con este truquito para non crear máis variables
-misterio = misterio*10;
+misterio = misterio;
 document.write('<br> Agora está entre 0 e 10: '+ misterio);
 
 //olliño con este truquito para non crear máis variables (outra vez)
