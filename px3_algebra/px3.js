@@ -26,6 +26,12 @@
 		alert('El resultado de la multiplicacion es ' + multiplicasion);
 		document.write('Multiplicación' + multiplicasion + '<br>' )
 	}
+
+	function division(num1,num2){
+		var divit = parseInt(num1) * parseInt(num2);
+		alert('El resultado de la multiplicacion es ' + multiplicasion);
+		document.write('Multiplicación' + multiplicasion + '<br>' )
+	}
 		// suma(num1,num2);
 		// resta(num1,num2);
 		// multi(num1,num2);
