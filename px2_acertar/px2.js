@@ -7,62 +7,78 @@
 	document.write('<img src="../logo.png" alt="Algo falla no logo">');
 
 // xenera un número aleatorio menor ca 1
-var misterio = Math.random();
+// var misterio = Math.random();
+// //var limitado = 0;
 
-// o número será menor ca 10
-misterio = misterio*10;
+// misterio = misterio*10;
 
-//redondeo para non ter decimais
-misterio = Math.round(misterio);
+// //redondeo para non ter decimais
+// misterio = Math.round(misterio);
 
-document.write(misterio);
+// document.write(misterio + ' ');
 
-var escolle = prompt('Cual sera el numero entre 0 y 10? ');
 
-if (escolle == misterio)
-{
-	document.write(' Asertaste wey ');
 
-}
-else if (escolle > misterio) 
-{
+// while (escolle != misterio){
 
-	alert ('Era menor');
+// var escolle = prompt('Cual sera el numero entre 0 y 10? ');
 
-// alert ('Era  ' + misterio + '  te equivacaste');
+// //for(var limitado = 0; limitado <= 3; limitado++ ){
+// if (escolle == misterio)
+// {
+// 	document.write(' Asertaste wey ');
 
-}
-else if (escolle < misterio)
-{
-	alert ('Era mayor')
-};
+// }
+// else if (escolle > misterio) 
+// {
+	
+// 	alert ('Era menor');
 
-var limitado = 0;
-var continuar = confirm('Te apetecere repetir?');
+// // alert ('Era  ' + misterio + '  te equivacaste');
 
-if (continuar) {
-	do {limitado++}
 
-while(limitado != 3){
+// }
+// else if (escolle < misterio)
+// {
+// 	alert ('Era mayor')
+
+// else if (escolle!=misterio)
+// {
+// 	for(var limitado = 0; limitado == 3; limitado++){
+// 		alert('Ya basta');
+// 	}
+// }
+// }
+// }
+
+
+// // var limitado = 0;
+// var continuar = confirm('Te apetecere repetir?');
+
+// if (continuar) {
+	
+// 	 // do {limitado++}
+
+// for(var limitado = 0; limitado <= 3; limitado++ ){
 		
 		
-	while (escolle != misterio){
-	escolle = prompt('Nuevo numero');
+// 	while (escolle != misterio){
+// 		escolle = prompt('Nuevo numero');
 			
-		document.write(limitado + 'Numero de veces');
+// 		document.write(limitado + ' Numero de veces');
 	
-}
+// }
 	
-	}
+// 	}
 
-	document.write(' Acertaste');
+// 	document.write(' Acertaste');
 
-}
-else
-{
-	document.write('Adios');
-};
+// }
+// else
+// {
+// 	document.write('Adios');
+// };
 
-	// while (limitado = 3){
-	// limitado++;	
-	// } 
+// 	// while (limitado = 3){
+// 	// limitado++;	
+// 	// } 

@@ -7,11 +7,11 @@
 	Imaxe corporativa 🤦🏼‍♀️
 */
 document.write('<img src="../logo.png" alt="Algo falla no logo">');
-document.write('<h1>Traballamos con condicionais</h1>');
+document.write('<h1>Traballamos con condicionales</h1>');
 
 // varios caracteres entre comiñas forman unha cadea (string)
-var resposta = prompt('que tal persoa é vostede? ');
-document.write('Vostede di ser unha persoa ' + resposta +  '<br>'); // unha cadea detrás da outra co signo +
+var resposta = prompt('Nacionalidad? 🌍');
+document.write('Con que  ' + resposta +  '<br>'); // unha cadea detrás da outra co signo +
 
 /*	
 	avaliamos o que introduce o usuario
@@ -19,19 +19,21 @@ document.write('Vostede di ser unha persoa ' + resposta +  '<br>'); // unha cade
 
 switch(resposta)
 {
-	case 'estupenda':
-		document.write('POR SUPOSTO 😆');
+	case 'Española':
+	case 'española':
+		document.write('POR SUPOSTO 😆 ARRIBA ESPAÑA');
+		break;
+	case 'Portugues':
+	case 'portugues':
+		document.write('Pobre 🍶');
 	break;
-	case 'marabillosa':
-		document.write('QUE SORTE 🤣');
-	break;
-	case 'guapo':
-	case 'guapa':
-		document.write('🤨 ENGREÍDA');
+	case 'Estadounidense':
+	case 'estadounidense':
+		document.write('⚒ VIVA EL TIO SAM');
 	break;
 	default:
-		document.write('MÁGOA!! 😫');
+		document.write('SE EQUIVOCO USTED DE SITIO ☠');
 	break;
 }; 
 
-document.write('<h6>Truquito: 😉 En Sublime Text: Edit/Emoji</h6>');
+document.write('<h6>Truquito: 📶 En Sublime Text: Edit/Emoji</h6>');
