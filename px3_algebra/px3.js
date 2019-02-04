@@ -38,8 +38,8 @@
 
 		var agin = 1;
 		while (agin) {
-			var num1 = prompt('Otro numero primario')
-			var num2 = prompt('Otro numero secundario')
+			var num1 = prompt('Numero primario')
+			var num2 = prompt('Numero secundario')
 			suma(num1,num2);
 			resta(num1,num2);
 			multi(num1,num2);
