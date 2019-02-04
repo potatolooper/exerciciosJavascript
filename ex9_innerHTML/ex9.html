@@ -1,4 +1,4 @@
-<html lang="gl">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<title>Exemplos</title>
@@ -13,27 +13,27 @@
 	
 	<!-- 	exemplo 1 -->
 
-	<h4> ✎ No ficheiro .html fabricamos botóns e un textito ó que lle poñemos un identificador</h4>
-	<p id="textito">Cámbiame de cor premendo nos botóns</p>
-	<button onclick="cambiarCor('blue');">Azul</button>
-	<button onclick="cambiarCor('red');">Vermello</button>
+	<h4>Vamos con el id a tope</h4>
+	<p id="textito">0</p>
+	<button onclick="cambiarCor('green');">Amarillo</button>
+	<button ondblclick="cambiarCor('red');">Vermello</button>
 
 	<!-- 	exemplo 2 -->
 
 	<h4> ✎ No ficheiro .html engadimos caixas de texto</h4>	
-	<p>O teu apelido: <input type="text" id="apelido"></p>
-	<p>O teu nome:   <input type="text" id="nome"></p>
-	<button onclick="procesarDatos();">Enviar datos</button>
+	<p>Dame un numero: <input type="text" id="apelido"></p>
+	<p>Dame otro numero:   <input type="text" id="nome"></p>
+	<button onclick="procesarDatos();">Aca tenes una rica suma</button>
 	
 	<!-- 	exemplo 3 -->
 
 	<h4> ✎ No ficheiro .html tecleamos un párrafo ó que lle poñemos un identificador</h4>
-	<p id="parrafada" onclick="cambiarTexto()">Este texto vai durar pouco se fas clic nel</p>
+	<p id="parrafada" onmouseover="cambiarTexto()">Esto cambiara en nada nel</p>
 
 	<!-- 	exemplo 4 -->
 
 	<h4> ✎ No ficheiro .js a función mostra a saída de <code>Date()</code> que vén de fábrica predefinida</h4>
-	<p id="hora" onclick="consultarHora()">Fai clic aquí para saber a hora </p>
+	<p id="hora" onmouseover="consultarHora()">Fai clic aquí para saber a hora </p>
 
 </body>
 </html>

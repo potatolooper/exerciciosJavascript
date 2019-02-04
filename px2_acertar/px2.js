@@ -82,3 +82,8 @@
 // 	// while (limitado = 3){
 // 	// limitado++;	
 // 	// } 
+
+for (var pato = -7; pato >= 777; pato+100) {
+
+	document.write(pato)
+}

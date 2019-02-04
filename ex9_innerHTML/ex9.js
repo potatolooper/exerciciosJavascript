@@ -18,17 +18,22 @@ function cambiarCor(colorin) {
 function procesarDatos(){
 	var aa;
 	var nn;
-	aa = document.getElementById('apelido').value;
-	nn = document.getElementById('nome').value;
-	alert('Vostede é ' + nn +' '+ aa);
+	aa = parseInt(document.getElementById('apelido').value);
+	nn =parseInt(document.getElementById('nome').value);
+	alert('Boom'+ '' + nn + aa);
 }
 
 //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml
 function cambiarTexto() {
-	document.getElementById("parrafada").innerHTML = "Xa cho dicía eu...";
+	document.getElementById("parrafada").innerHTML = "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||";
 }
 
 function consultarHora() {
 	var agora=Date();
 	document.getElementById("hora").innerHTML = agora;
 }
+
+function sumar(){
+	
+}
+document.write('<button ondblclick="">Romper la pagina</button>')

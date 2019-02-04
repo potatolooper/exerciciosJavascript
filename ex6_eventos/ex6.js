@@ -14,6 +14,7 @@ function arrancamos () {
 
 function premerBoton () {
 	alert('👍🏽 Botón presionado 👍🏽');
+	document.write('Hola')
 }
 
 function paseando () {
