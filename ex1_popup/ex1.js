@@ -6,25 +6,25 @@
 
 // preguntamos un dato con prompt() e mostrámolo con alert()
 var dato; //declaramos unha variable para gardar a resposta
-dato = prompt('Cal é o teu nome?');
-alert('Encantada '+ dato);
+dato = prompt('Dime tu nombre guapo?');
+alert('Hola bro '+ dato);
 
 
 // o navegador sabe HTML:
-document.write('<img src="../logo.png" alt="Algo falla no logo">');
-document.write('<h1>Benvidos á páxina do ex1.js</h1>'); // podemos inserir HTML
-document.write('Iremos aprendendo. '); //non fai caso dos saltos de liña
-document.write('Para un salto de liña usamos a etiqueta HTML: <br>');
-document.write('Funciona? Lembramos a raia: <hr>');
+document.write('<img src="../logo.png" alt="Algo falla amego">');
+document.write('<h1>Este es el principio de todo,el ex1.js</h1>'); // podemos inserir HTML
+document.write('Veremos que podemos hacer con esto poco de programacion. '); //non fai caso dos saltos de liña
+document.write('Por ejemplo para hacer un salto de pagina usamos lo mismo que usariamos en html <br>');
+document.write('Y con la raya pasaria lo mismo <hr>');
 
 // confirm() mostra cadro de diálogo OK ou Cancel:
-var marchamos= confirm('Deixamos este exercio? ');
+var marchamos= confirm('Te queres ir a otro? ');
 
 if(marchamos)
 {
-	document.write('<br> Saúdos.... '+ dato);
+	document.write('<br> Hola de nuevo '+ dato);
 } 
 else 
 {
-	document.write('<br> Daquela seguimos xogando, '+ dato);
+	document.write('<br> Nah pero aca no hay mucho que hacer, '+ dato);
 }

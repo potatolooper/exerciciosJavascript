@@ -55,23 +55,23 @@ document.write('<hr>');
 var obj2;
 
  if (pro2 < 2) {
-	document.write('<br> Producto uno Mandarina <br>' + Mandarina + '€');
+	document.write('<br> Producto dos Mandarina <br>' + Mandarina + '€');
 	obj2 = Mandarina;
 
 }
 
 else if (pro2 <= 2) {
-		document.write('<br> Producto uno Boli <br>'  + Boli + '€');
+		document.write('<br> Producto dos Boli <br>'  + Boli + '€');
 		obj2 = Boli;
 	}
 
 	else if (pro2 <= 3) {
-				document.write('<br> Producto uno Cartones <br>' + Cartones + '€');
+				document.write('<br> Producto dos Cartones <br>' + Cartones + '€');
 				obj2 = Cartones;
 
 		}
 		else if (pro2 = 4) {
-						document.write('<br> Producto uno Cuerdas <br>' + Cuerdas + '€');
+						document.write('<br> Producto dos Cuerdas <br>' + Cuerdas + '€');
 						obj2 = Cuerdas;
 			}
 
@@ -79,23 +79,23 @@ document.write('<hr>');
 var obj3;
 
  if (pro3 < 2) {
-	document.write('<br> Producto uno Mandarina <br>' + Mandarina+ '€');
+	document.write('<br> Producto tres Mandarina <br>' + Mandarina+ '€');
 	obj3 = Mandarina;
 
 }
 
 else if (pro3 <= 2) {
-		document.write('<br> Producto uno Boli <br>'  + Boli + '€');
+		document.write('<br> Producto tres Boli <br>'  + Boli + '€');
 		obj3 = Boli;
 	}
 
 	else if (pro3 <= 3) {
-				document.write('<br> Producto uno Cartones <br>' + Cartones + '€');
+				document.write('<br> Producto tres Cartones <br>' + Cartones + '€');
 				obj3 = Cartones;
 
 		}
 		else if (pro3 = 4) {
-						document.write('<br> Producto uno Cuerdas <br>' + Cuerdas + '€');
+						document.write('<br> Producto tres Cuerdas <br>' + Cuerdas + '€');
 						obj3 = Cuerdas;
 			}
 

@@ -5,34 +5,34 @@
 */
 
 document.write('<img src="../logo.png" alt="Algo falla no logo">');
-document.write('<h1> Páxina de mates que usa .css </h1>')
+document.write('<h1> Una pagina de matematicas</h1>')
 
 // as variables decláranse
 var num1; 
 var num2;
 
 // pregunto o valor ó usuario; Javscript considéraos caracteres, non números
-num1 = prompt('Canto vale o primeiro número? ');
-num2 = prompt('Canto vale o segundo número? ');
+num1 = prompt('Cuanto es el primer numero? ');
+num2 = prompt('Y el segundo número? ');
 
 // convertimos a números
 var solucionado = parseInt(num1)+parseInt(num2);
-document.write('O resultado da túa suma é '+ solucionado);
+document.write('La suma da esto '+ solucionado);
 
 // fallos nos cálculos
 var num3 = 0;
-document.write('<br> <hr>Atención ós erros nas contas (dividir entre 0) será...'+ num1/num3); // opsssss
+document.write('<br> Esto es lo que pasa cuando dividimos entre cero que da pues esto:'+ num1/num3); // opsssss
 
 
-document.write('<hr><h3>Javascript "inventa" un número entre 0 e 10</h3>');
+document.write('<hr><h3>Ahora a inventar numeros</h3>');
 
 var misterio = Math.random();
-document.write('<br>Xenero un número aleatorio menor ca un: '+ misterio);
+document.write('<br>Los numero generados siempre son menores que 1: '+ misterio);
 
 //olliño con este truquito para non crear máis variables
-misterio = misterio;
-document.write('<br> Agora está entre 0 e 10: '+ misterio);
+misterio = 10*misterio;
+document.write('<br>Eso se puede solucionar multiplicandolos por 10: '+ misterio);
 
 //olliño con este truquito para non crear máis variables (outra vez)
 misterio = Math.round(misterio)
-document.write('<br> Redondeo para non andar con decimais '+ misterio);
+document.write('<br> Y tambien redondearlos para quitar esos molestos decimales '+ misterio);

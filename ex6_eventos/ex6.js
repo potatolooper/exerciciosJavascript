@@ -9,16 +9,16 @@
 */
 
 function arrancamos () {
-	alert('😀 Moi boas 😃');
+	alert('Buenos dias');
 }
 
 function premerBoton () {
-	alert('👍🏽 Botón presionado 👍🏽');
-	document.write('Hola')
+	alert('Auu💥💥 ');
+	document.write('Pues ahora no te dejo volver')
 }
 
 function paseando () {
-	alert('🚶🏼‍♀️ Paseando polo botón 🚶🏼‍♀️');
+	alert('BUUUUUUUUUUU👻👻👻');
 }
 
 /*	
